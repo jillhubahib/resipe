@@ -53,7 +53,7 @@ config = {
   },
 
   plugins: [
-    new webpack.EnvironmentPlugin(Object.keys(process.env))
+    // new webpack.EnvironmentPlugin(Object.keys(process.env))
   ],
 
   resolve: {
