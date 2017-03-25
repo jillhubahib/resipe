@@ -1,6 +1,17 @@
-Resipe is a social network app for recipes. You may think of it as a remake of recipefy.
+### Prerequisites
+- Rails 5.1+
+- Yarn
 
-## Built With
+### Setup
 
-* Rails 5.1 + webpacker
-* React
+Install dependencies as defined in the package.json file, and run below commands in the project root directory.
+
+Note: Do not let webpack overwrite `config/webpack/shared.js`
+```
+rails webpacker:install
+```
+
+### Run
+```
+./bin/server
+```
